@@ -16,10 +16,11 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 28vw;
-    margin-right: 28vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
 }
 
+/* nav section */
 nav{
     font-family: "Space Grotesk", sans-serif;
     height: 60px;
@@ -41,6 +42,7 @@ nav{
     font-weight: 500;
 }
 
+/* Header section */
 header{
     margin-top: 90px;
     padding: 10px 20px 10px 20px;
@@ -90,6 +92,8 @@ p.hello-header{
     padding-right: 6px;
 }
 
+/* Abouut section */
+
 .about-div{
     display: flex;
     flex-direction: row;
@@ -117,8 +121,10 @@ p.hello-header{
     width: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
+/* Skill section */
 .skills-div{
     padding: 10px 20px 10px 20px;
     margin-top: 80px;
@@ -153,3 +159,64 @@ p.hello-header{
     font-size: 90px;
     margin-bottom: 5px;
 }
+
+/* Projects section */
+.projects{
+    padding: 10px 20px 10px 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projects > h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.project-box{
+    background: rgb(19,19,19);
+    background: linear-gradient(135deg, rgba(19,19,19,1) 0%, rgba(17,17,17,1) 100%);
+    border-radius: 40px;
+    border: 1px solid #1d1d1d;
+    padding: 60px 30px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.a-div{
+    padding: 20px;
+    width: 360px;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    border: 1px solid #252525;
+    margin-bottom: 30px;
+}
+
+.a-div:hover{
+    background-color: #303030;
+}
+
+.anchor-proj{
+    text-decoration: none;
+    color: #616161;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+}
+
+.anchor-proj > h3{
+    color: #b85c23;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 8px 0px 8px 0px;
+    font-size: 24px;
+}
+
+.anchor-proj > img{
+    width: 360px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
