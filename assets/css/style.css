@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* font-family: "Rubik", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* font-family: "Space Grotesk", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arvo", serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: rgb(131, 131, 131);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 28vw;
+    margin-right: 28vw;
+}
+
+nav{
+    font-family: "Space Grotesk", sans-serif;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 5px 5px 15px 5px;
+    border-bottom: 0.1rem solid rgb(34, 34, 34);
+}
+
+.anchor-nav{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header{
+    margin-top: 90px;
+    padding: 10px 20px 10px 20px;
+}
+
+p.hello-header{
+    font-family: "Space Grotesk", sans-serif;
+    color: #b85c23;
+    font-size: 26px;
+}
+
+.name-header{
+    font-family: "Arvo", serif;
+    font-size: 132px;
+    color: #ffffff;
+}
+
+.desc-header{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 9px;
+}
+
+.desc2-header{
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    margin: 40px 0px 40px 0px;
+}
+
+.anchor-header{
+    background-color: #1b1b1b;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Rubik", sans-serif;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.anchor-header:hover{
+    background-color: #303030;
+}
+
+.anchor-header > i{
+    padding-right: 6px;
+}
+
+.about-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+    padding: 10px 20px 10px 20px;
+}
+
+.text-about{
+    width: 50%;
+}
+
+.text-about > h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.text-about > p{
+    font-family: "Rubik", sans-serif;
+    margin: 7px 0px 7px 0px;
+    font-size: 20px;
+}
+
+.image-about{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.skills-div{
+    padding: 10px 20px 10px 20px;
+    margin-top: 80px;
+}
+
+.skills-div > h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.skills-box{
+    background: rgb(19,19,19);
+    background: linear-gradient(135deg, rgba(19,19,19,1) 0%, rgba(17,17,17,1) 100%);
+    border-radius: 40px;
+    border: 1px solid #1d1d1d;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.icon-skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon-skills > i{
+    color: #616161;
+    font-size: 90px;
+    margin-bottom: 5px;
+}
