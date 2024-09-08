@@ -73,22 +73,22 @@ p.hello-header{
     margin: 40px 0px 40px 0px;
 }
 
-.anchor-header{
+.anchor-click{
     background-color: #1b1b1b;
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 12px;
     font-family: "Rubik", sans-serif;
     border-radius: 8px;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.anchor-header:hover{
+.anchor-click:hover{
     background-color: #303030;
 }
 
-.anchor-header > i{
+.anchor-click > i{
     padding-right: 6px;
 }
 
@@ -134,6 +134,16 @@ p.hello-header{
     font-family: "Space Grotesk", sans-serif;
     font-size: 24px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-more{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: #b85c23;
+    text-decoration: none;
+    
 }
 
 .skills-box{
@@ -164,15 +174,14 @@ p.hello-header{
 .projects{
     padding: 10px 20px 10px 20px;
     margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    
 }
 
 .projects > h2{
     font-family: "Space Grotesk", sans-serif;
     font-size: 24px;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .project-box{
@@ -220,3 +229,38 @@ p.hello-header{
     border-radius: 15px 15px 0px 0px;
 }
 
+/* Get in Touch section */
+
+.main-contact{
+    padding: 10px 20px 10px 20px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-contact > h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.main-contact > p{
+    font-family: "Rubik", sans-serif;
+    margin: 7px;
+    width: 35%;
+    font-size: 18px;
+}
+
+.anchor-contact{
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+    font-family: "Rubik", sans-serif;
+    margin: 100px 0px 10px 0px;
+}
