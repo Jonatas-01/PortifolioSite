@@ -380,7 +380,7 @@ footer{
     
 }
 
-@media screen and (min-width: 427px) and (max-width: 768px) {
+@media screen and (min-width: 427px) and (max-width: 908px) {
     body{
        margin: 0px 10vw ; 
     }
