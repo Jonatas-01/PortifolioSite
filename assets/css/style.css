@@ -299,6 +299,11 @@ footer{
     .desc2-header{
         font-size: 22px;
     }
+
+    .anchor-nav{
+        margin-right: 20px;
+        margin-left: 20;
+    }
     
     .anchor-click{
         padding: 12px;
