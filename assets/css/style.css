@@ -46,6 +46,7 @@ nav{
 header{
     margin-top: 90px;
     padding: 10px 20px 10px 20px;
+    overflow: hidden;
 }
 
 p.hello-header{
@@ -143,7 +144,6 @@ p.hello-header{
     font-size: 16px;
     color: #b85c23;
     text-decoration: none;
-    
 }
 
 .skills-box{
@@ -224,7 +224,7 @@ p.hello-header{
 }
 
 .anchor-proj > img{
-    width: 360px;
+    width: 100%;
     height: 200px;
     border-radius: 15px 15px 0px 0px;
 }
@@ -263,4 +263,110 @@ footer{
     color: rgba(255, 255, 255, 0.808);
     font-family: "Rubik", sans-serif;
     margin: 100px 0px 10px 0px;
+}
+
+@media screen and (max-width: 426px){
+
+    body{
+        margin: 0px;
+   }
+   header{
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+    }
+
+    header > div{
+        display: flex;
+        
+    }
+   .name-header{
+        font-size: 74px;
+   }
+
+   p.hello-header{
+    font-size: 22px;
+   }
+
+   .desc-header{
+    font-size: 28px;
+    margin-top: 9px;
+    }
+
+    .desc2-header{
+        font-size: 22px;
+    }
+    
+    .anchor-click{
+        padding: 12px;
+        border-radius: 8px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+   .about-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+   }
+
+   .text-about{
+    width: auto
+    }
+
+   .image-about{
+        width: auto;
+   }
+
+   .image-about{
+    padding: 20px;
+   }
+
+    .image-about > img{
+    width: 350px;
+    }
+
+    
+    .skills-div{
+        margin-top: 60px;
+    }
+
+    .icon-skills > i{
+        font-size: 50px;
+    } 
+
+    .projects{
+        margin-top: 60px;
+    }
+
+    .project-box{
+        padding: 40px 20px 30px 20px;
+    }
+
+    .a-div{
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .anchor-proj > img{
+        height: 160px;
+    }
+
+    .main-contact > p{
+        width: 70%;
+    }
+
+    .anchor-contact{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .anchor-click{
+        margin: 5px;
+    }
+
+    .anchor-contact{
+        margin-top: 50px;
+    }
+    
 }
