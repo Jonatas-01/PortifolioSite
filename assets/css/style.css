@@ -379,3 +379,28 @@ footer{
     }
     
 }
+
+@media screen and (max-width: 768px){
+    body{
+       margin: 0px 10vw ; 
+    }
+
+    .about-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+   }
+
+   .text-about{
+    width: auto
+    }
+
+   .image-about{
+        padding-top: 20px;
+        width: auto;
+   }
+
+   .image-about > img{
+    width: 80%;
+   }
+}
