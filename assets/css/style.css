@@ -269,7 +269,7 @@ footer{
     margin: 100px 0px 10px 0px;
 }
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 764px){
 
     body{
         margin: 0px;
@@ -380,7 +380,7 @@ footer{
     
 }
 
-@media screen and (min-width: 427px) and (max-width: 908px) {
+@media screen and (min-width: 765px) and (max-width: 1024px) {
     body{
        margin: 0px 10vw ; 
     }
