@@ -269,6 +269,27 @@ footer{
     margin: 100px 0px 10px 0px;
 }
 
+/* 404 page */
+
+.section-404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-404 > h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+}
+
+.section-404 > img{
+    margin-top: 50px;
+    width: 70%;
+    
+}
+
 @media screen and (max-width: 764px){
 
     body{
